@@ -1,0 +1,75 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Arrière-plan plus clair */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Arrière-plan blanc */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Style pour chaque section d'annonce */
+.advertisement {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère sous chaque annonce */
+}
+
+/* Style pour le titre de l'annonce */
+.title {
+    font-size: 24px; /* Titre plus grand */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style pour la description de l'annonce */
+.description {
+    font-size: 16px; /* Description plus grande */
+    margin-bottom: 15px;
+}
+
+/* Style pour le bouton "Learn More" */
+.learn-more-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style pour les détails affichés au clic sur "Learn More" */
+.collapse {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Ombre légère autour des détails */
+}
+
+/* Style pour les liens "Learn More" */
+.learn-more-button,
+.learn-more-button:hover {
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+/* Style pour le lien actif "Learn More" (au survol) */
+.learn-more-button:hover {
+    background-color: #0056b3; /* Légère variation de couleur au survol */
+}
+.hidden-form {
+    display: none;
+}

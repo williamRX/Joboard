@@ -1,0 +1,9 @@
+The Job Advertisement System project consists of three main components:
+
+    Database for Job Advertisements: The project includes a structured SQL database to store job advertisements, companies, people (applicants and job posters), and job applications.
+
+    Front-end Webpage: The front-end of the application is built using JavaScript technologies. It provides an online job advertisements board where users can view job listings. Additionally, there is an administration page for authorized admin users to manage job listings.
+
+    Back-end API: The back-end of the application hosts an API that serves multiple purposes:
+        Allows users to apply for job advertisements.
+        Provides CRUD (Create, Read, Update, Delete) operations for managing the database. These operations are accessible only to admin users for maintaining job listings.
